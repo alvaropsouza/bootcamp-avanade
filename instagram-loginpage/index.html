@@ -10,26 +10,26 @@
     <title>Instagram</title>
 </head>
 <body>
-    <div id="main-container">
-        <div id="phone">
+    <div class="main-container">
+        <div class="phone">
             <img src="./img/phone.png" alt="Imagem celular">
         </div>
 
-        <div id="account-box">
-            <div id="login-info">
+        <div class="account-box">
+            <div class="login-info" class="go-dark">
                 <img src="./img/instagram-logo.png" class="logo-insta" alt="Logo instagram">
                 <img src="./img/avatar.png" class="avatar" alt="Avatar do usuário">
                 <button class="login-button">Continuar como alvaropsouza</button>
-                <p class="remove-acc"><a href="#">Remover conta</a></p>
+                <p class="remove-acc"><a href="">Remover conta</a></p>
             </div>
 
-            <div class="switch-acc-box">
+            <div class="switch-acc-box" class="go-dark">
                 <p style="color: #A4A4A4">Não é alvaropsouza?</p>
                 <p style="color: #A4A4A4"><a href="">Alternar contas</a> ou <a href="">Inscreva-se</a></p>
             </div>
             
-            <div class="download-app-box">
-                <p>Baixe o aplicativo</p>
+            <div class="download-app-box" class="go-dark">
+                <p class="download-app">Baixe o aplicativo</p>
                 <div class="stores">
                     <a href=""><img src="./img/apple-button.png" alt="Download Apple store"></a>
                     <a href=""><img src="./img/googleplay-button.png" alt="Download Play Store"></a>
@@ -38,5 +38,8 @@
             </div>
         </div>
     </div>
+    <button class="button-darkmode" onclick="darkmode()">Ativar darkmode 🧛</button>
+
+    <script src="./index.js"></script>
 </body>
 </html>

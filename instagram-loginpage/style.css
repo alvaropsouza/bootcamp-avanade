@@ -4,15 +4,32 @@
 }
 
 a {
+    font-family: sans-serif;
     text-decoration: none;
     color: #0095f6;
+}
+
+.button-darkmode {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    cursor: pointer;
+
+    color: #dbdbdb;
+
+    padding: 0.5rem;
+    border: 1px solid #5c5c5c;
+    background-color: #121212;
+    border-radius: 2px;
+    outline: none;
 }
 
 body {
     background: #F3F3F3;
 }
 
-#main-container {
+.main-container {
     display: flex;
     align-items:center;
     height: 100vh;
@@ -20,18 +37,18 @@ body {
     justify-content:center;
 }
 
-#phone {
+.phone {
     display: flex;
     justify-content: center;
     margin: 0;
     width: 30%;
 }
 
-#account-box {
+.account-box {
     width: 30%;
 }
 
-#login-info {
+.login-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,18 +59,18 @@ body {
     border: 1px solid #dbdbdb;
 }
 
-#login-info .logo-insta {
+.login-info .logo-insta {
     height: 3rem;
 }
 
-#login-info .avatar {
+.login-info .avatar {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
     object-fit: cover;
 }
 
-#login-info .login-button {
+.login-info .login-button {
     margin: 1.3rem;
     padding: 8px 18px;
     border-radius: 4px;
@@ -64,7 +81,7 @@ body {
     cursor: pointer;
 }
 
-#login-info .remove-acc {
+.remove-acc {
     color: #0095f6;
     font-family: sans-serif;
 }
@@ -107,3 +124,15 @@ body {
     margin: 0;
 }
 
+.dark-mode {
+    background: #121212;
+}
+
+.gray-mode {
+    background: #555555;
+    border: 1px solid #9e9e9e;
+}
+
+.gray-text {
+    color: #A4A4A4;
+}
