@@ -3,35 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+
     <link rel="icon" href="./img/instagram.svg">
     <title>Instagram</title>
 </head>
 <body>
     <div id="main-container">
-        <div class="phone">
+        <div id="phone">
             <img src="./img/phone.png" alt="Imagem celular">
         </div>
 
         <div id="account-box">
-            <div class="login-info">
-                <img src="./img/instagram-logo.png" alt="Logo instagram">
-                <img src="./img/avatar.png" alt="Avatar do usuário">
+            <div id="login-info">
+                <img src="./img/instagram-logo.png" class="logo-insta" alt="Logo instagram">
+                <img src="./img/avatar.png" class="avatar" alt="Avatar do usuário">
                 <button class="login-button">Continuar como alvaropsouza</button>
-                <p>Remover conta</p>
+                <p class="remove-acc"><a href="#">Remover conta</a></p>
             </div>
 
-            <div class="switch-account-box">
-                <p id="not-user">Não é alvaropsouza?</p>
-                <p id="switch-account">
-                    <a href="">Alternar contas</a>
-                    ou 
-                    <a href="">Inscreva-se</a>
-                </p>
+            <div class="switch-acc-box">
+                <p style="color: #A4A4A4">Não é alvaropsouza?</p>
+                <p style="color: #A4A4A4"><a href="">Alternar contas</a> ou <a href="">Inscreva-se</a></p>
             </div>
+            
             <div class="download-app-box">
                 <p>Baixe o aplicativo</p>
-                <img src="./img/apple-button.png" alt="Download Apple store">
-                <img src="./img/googleplay-button.png" alt="Download Play Store">
+                <div class="stores">
+                    <a href=""><img src="./img/apple-button.png" alt="Download Apple store"></a>
+                    <a href=""><img src="./img/googleplay-button.png" alt="Download Play Store"></a>
+                </div>
+                
             </div>
         </div>
     </div>
